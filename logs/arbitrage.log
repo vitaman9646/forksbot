@@ -33393,3 +33393,39 @@ TypeError: StatsTracker.record_scan() got an unexpected keyword argument 'reject
 2026-02-26 15:42:36,233 [INFO] Forks: 103 scanned, 64 negRisk, 0 title, 39 skipped, 13 found
 2026-02-26 15:42:36,411 [INFO] Sports binary: 0 candidates out of 200 events
 2026-02-26 15:42:36,423 [INFO] Found: 13 forks + 0 sports | Rejected: 0 | Bank: $115.00 | API: 486 reqs 429s=0
+2026-02-26 15:43:36,432 [INFO] ─── Scan #244 ───
+2026-02-26 15:43:37,622 [INFO] Events: 200 total, 103 multi-outcome
+2026-02-26 15:43:37,631 [INFO] FORK | OVER | Sachsen-Anhalt Parliamentary Election Winner | Sum: $1.0340 | Net: 1.09% | Verified: negRisk
+2026-02-26 15:43:37,633 [INFO] FORK | OVER | FIFA World Cup Group H Winner | Sum: $1.0280 | Net: 0.56% | Verified: negRisk
+2026-02-26 15:43:37,634 [INFO] FORK | OVER | Six Nations: France vs England | Sum: $1.0350 | Net: 1.27% | Verified: negRisk
+2026-02-26 15:43:37,634 [INFO] FORK | UNDER | Central African Republic National Assembly El | Sum: $0.9200 | Net: 6.32% | Verified: negRisk
+2026-02-26 15:43:37,636 [INFO] FORK | OVER | FC Barcelona vs. Club Atlético de Madrid | Sum: $1.0300 | Net: 0.78% | Verified: negRisk
+2026-02-26 15:43:37,642 [INFO] FORK | UNDER | 1. FC Union Berlin vs. SV Werder Bremen | Sum: $0.9700 | Net: 0.91% | Verified: negRisk
+2026-02-26 15:43:37,647 [INFO] FORK | UNDER | Armenia Parliamentary Election Winner | Sum: $0.9690 | Net: 0.97% | Verified: negRisk
+2026-02-26 15:43:37,647 [INFO] FORK | OVER | FIFA World Cup Group A Winner | Sum: $1.0355 | Net: 1.30% | Verified: negRisk
+2026-02-26 15:43:37,648 [INFO] FORK | UNDER | Sevilla FC vs. Rayo Vallecano de Madrid | Sum: $0.9650 | Net: 1.43% | Verified: negRisk
+2026-02-26 15:43:37,648 [INFO] FORK | OVER | CR Vasco da Gama vs. SE Palmeiras | Sum: $1.0750 | Net: 5.19% | Verified: negRisk
+2026-02-26 15:43:37,649 [INFO] FORK | OVER | Como 1907 vs. FC Internazionale Milano | Sum: $1.0650 | Net: 4.21% | Verified: negRisk
+2026-02-26 15:43:37,650 [INFO] FORK | UNDER | SS Lazio vs. Atalanta BC | Sum: $0.9350 | Net: 4.68% | Verified: negRisk
+2026-02-26 15:43:37,650 [INFO] FORK | OVER | Predicted Fed rate under each Fed Chair | Sum: $1.0445 | Net: 2.14% | Verified: negRisk
+2026-02-26 15:43:37,650 [INFO] Forks: 103 scanned, 64 negRisk, 0 title, 39 skipped, 13 found
+2026-02-26 15:43:37,823 [INFO] Sports binary: 0 candidates out of 200 events
+2026-02-26 15:43:37,838 [INFO] Found: 13 forks + 0 sports | Rejected: 0 | Bank: $115.00 | API: 488 reqs 429s=0
+2026-02-26 15:44:37,849 [INFO] ─── Scan #245 ───
+2026-02-26 15:44:39,549 [INFO] Events: 200 total, 98 multi-outcome
+2026-02-26 15:44:39,553 [INFO] FORK | OVER | Sachsen-Anhalt Parliamentary Election Winner | Sum: $1.0365 | Net: 1.34% | Verified: negRisk
+2026-02-26 15:44:39,554 [INFO] FORK | OVER | FIFA World Cup Group H Winner | Sum: $1.0280 | Net: 0.56% | Verified: negRisk
+2026-02-26 15:44:39,554 [INFO] FORK | OVER | Six Nations: France vs England | Sum: $1.0300 | Net: 0.78% | Verified: negRisk
+2026-02-26 15:44:39,554 [INFO] FORK | UNDER | Central African Republic National Assembly El | Sum: $0.9200 | Net: 6.32% | Verified: negRisk
+2026-02-26 15:44:39,555 [INFO] FORK | OVER | FC Barcelona vs. Club Atlético de Madrid | Sum: $1.0300 | Net: 0.78% | Verified: negRisk
+2026-02-26 15:44:39,555 [INFO] FORK | UNDER | 1. FC Union Berlin vs. SV Werder Bremen | Sum: $0.9700 | Net: 0.91% | Verified: negRisk
+2026-02-26 15:44:39,555 [INFO] FORK | UNDER | Armenia Parliamentary Election Winner | Sum: $0.9705 | Net: 0.82% | Verified: negRisk
+2026-02-26 15:44:39,555 [INFO] FORK | OVER | FIFA World Cup Group A Winner | Sum: $1.0355 | Net: 1.30% | Verified: negRisk
+2026-02-26 15:44:39,556 [INFO] FORK | UNDER | Sevilla FC vs. Rayo Vallecano de Madrid | Sum: $0.9650 | Net: 1.43% | Verified: negRisk
+2026-02-26 15:44:39,556 [INFO] FORK | OVER | CR Vasco da Gama vs. SE Palmeiras | Sum: $1.0700 | Net: 4.70% | Verified: negRisk
+2026-02-26 15:44:39,556 [INFO] FORK | OVER | Como 1907 vs. FC Internazionale Milano | Sum: $1.0650 | Net: 4.21% | Verified: negRisk
+2026-02-26 15:44:39,556 [INFO] FORK | OVER | PSV vs. AZ | Sum: $1.0600 | Net: 3.72% | Verified: negRisk
+2026-02-26 15:44:39,608 [INFO] FORK | UNDER | SS Lazio vs. Atalanta BC | Sum: $0.9350 | Net: 4.68% | Verified: negRisk
+2026-02-26 15:44:39,612 [INFO] Forks: 98 scanned, 61 negRisk, 0 title, 37 skipped, 13 found
+2026-02-26 15:44:39,811 [INFO] Sports binary: 0 candidates out of 200 events
+2026-02-26 15:44:39,823 [INFO] Found: 13 forks + 0 sports | Rejected: 0 | Bank: $115.00 | API: 490 reqs 429s=0
