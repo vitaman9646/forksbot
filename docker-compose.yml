@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  scanner:
+    build: .
+    container_name: arb-scanner
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: "0.5"
