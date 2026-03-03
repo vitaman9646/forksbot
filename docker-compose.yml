@@ -1,0 +1,21 @@
+# docker-compose.yml
+version: "3.8"
+
+services:
+  arb-scanner:
+    build: .
+    container_name: arb-scanner-v2
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # данные и логи сохраняются на хосте
+      - ./data:/app/data
+      - ./logs:/app/logs
+      # .env монтируем для hot-reload
+      - ./.env:/app/.env:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
