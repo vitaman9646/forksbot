@@ -1,0 +1,36 @@
+# .env (шаблон)
+# ══════════════════════════════════════════════════════════
+#  POLYMARKET ARBITRAGE BOT v2.0
+# ══════════════════════════════════════════════════════════
+
+# ── Telegram ─────────────────────────────────────────────
+ARB_TG_TOKEN=your_bot_token_here
+ARB_TG_CHAT=your_chat_id_here
+
+# ── Polymarket CLOB (для реального исполнения) ───────────
+# НЕ ЗАПОЛНЯЙ пока работаешь в PAPER mode
+# POLY_PRIVATE_KEY=
+# POLY_FUNDER_ADDRESS=
+# POLY_API_KEY=
+# POLY_API_SECRET=
+# POLY_PASSPHRASE=
+
+# ── Scanning ─────────────────────────────────────────────
+SCAN_INTERVAL=30
+MIN_NET_EDGE_PCT=0.5
+MAX_EDGE_PCT=12.0
+MIN_VOLUME=500
+
+# ── Execution ────────────────────────────────────────────
+MAX_POSITION_USD=5.0
+ORDER_TTL_SEC=30
+MAX_SLIPPAGE_PCT=0.3
+
+# ── Risk ─────────────────────────────────────────────────
+MAX_CONCURRENT=1
+MAX_DAILY_LOSS_USD=10.0
+MAX_DRAWDOWN_PCT=15.0
+COOLDOWN_AFTER_LOSS_SEC=300
+
+# ── Mode ─────────────────────────────────────────────────
+PAPER_TRADING=true
