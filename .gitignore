@@ -1,0 +1,21 @@
+# Создай .gitignore если нет
+cat > .gitignore << 'EOF'
+venv/
+env/
+__pycache__/
+*.pyc
+.env
+node_modules/
+*.log
+data/*.jsonl
+logs/
+.DS_Store
+EOF
+
+# Удали мусор из git (если уже закоммитил)
+git rm -r --cached venv/ 2>/dev/null
+git rm -r --cached __pycache__/ 2>/dev/null
+git rm -r --cached node_modules/ 2>/dev/null
+git add .gitignore
+git commit -m "cleanup: add .gitignore, remove cached junk"
+git push
